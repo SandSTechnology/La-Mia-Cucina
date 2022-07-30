@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "578107969481",
+    "project_id": "lamia-11dc9",
+    "storage_bucket": "lamia-11dc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578107969481:android:3f033a5309afbbef03a218",
+        "android_client_info": {
+          "package_name": "com.example.lamiacucina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578107969481-71pq3b2v6jrh9260g3cpqn12lkbds1mk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY4s2-gsLyhb6lbwE6MKyYYwh7siUDJt8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578107969481-71pq3b2v6jrh9260g3cpqn12lkbds1mk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

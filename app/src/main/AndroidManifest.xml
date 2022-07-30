@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.lamiacucina">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LaMiaCucina"
+        tools:targetApi="s">
+        <activity
+            android:name=".PlannedMealDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResetEmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddLocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoogleLocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.recipe.CustomizeRecipeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.recipe.AddRecipeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectRecipesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditDemandListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PantryManagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChefActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecipeDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.family.AddNewFamilyMemberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.kitchen_log.ViewIngredientKitchenLogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.kitchen_log.AddIngredientKitchenLogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Signup"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".StartActivity"
+            android:exported="false"
+            android:theme="@style/TransparentStatusBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>

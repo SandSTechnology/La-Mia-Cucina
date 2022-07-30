@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">La Mia Cucina</string>
+    <string name="txtRegistration">Create New Account</string>
+    <string name="txtLogin">Login Form</string>
+    <string name="u_see_recipes_u"><u>See Recipes</u></string>
+    <string name="u_planned_meals"><u>See Planned Meals!</u></string>
+    <string name="hello">Hello!</string>
+    <string name="hello_with_name">Hello, %1$s!</string>
+    <string name="ingredient_name_in_list">%1$s | %2$s %3$s</string>
+    <string name="my_name_in_family_list">You | %1$s | %2$s</string>
+    <string name="person_name_in_family_list">%1$s | %2$s</string>
+    <string name="recipes_count">You have %1$d Recipes that you haven\'t tried yet!</string>
+    <string name="recipes_no_count">You don\'t have any Recipes</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="meals_count">You have already planned %1$d Meals Menu</string>
+    <string name="meals_no_count">You don\'t have any Meals Planned</string>
+    <string name="image">Image</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCp-sFsUjQyeOC4EOhzeno0-8KRaGwIoBg</string>
+
+</resources>

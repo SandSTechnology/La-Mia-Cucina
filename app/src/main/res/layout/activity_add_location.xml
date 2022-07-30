@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddLocationActivity">
+
+    <LinearLayout
+        android:id="@+id/loadingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/loadingOnLocation"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/lowYellow"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activities.GoogleLocationActivity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:gravity="center"
+        android:layout_marginTop="60dp">
+
+        <EditText
+            android:id="@+id/storeName"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="#ffffff"
+            android:hint="enter store location"
+            android:padding="7sp"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/btnSubmit"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="45dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_marginStart="5dp"
+            android:text="Submit"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
