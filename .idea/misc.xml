@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Clients_Projects/Latest La Mia Cucina/La_Mia_Cucina/app/src/main/res/layout/activity_add_ingredient_kitchen_log.xml" value="0.209375" />
         <entry key="..\:/Clients_Projects/Latest La Mia Cucina/La_Mia_Cucina/app/src/main/res/layout/activity_add_location.xml" value="0.209375" />
         <entry key="..\:/Clients_Projects/Latest La Mia Cucina/La_Mia_Cucina/app/src/main/res/layout/activity_add_new_family_member.xml" value="0.209375" />
         <entry key="..\:/Clients_Projects/Latest La Mia Cucina/La_Mia_Cucina/app/src/main/res/layout/activity_add_recipe.xml" value="0.209375" />
@@ -18,6 +19,7 @@
         <entry key="..\:/Clients_Projects/Latest La Mia Cucina/La_Mia_Cucina/app/src/main/res/layout/activity_select_recipes.xml" value="0.20185185185185187" />
         <entry key="..\:/Clients_Projects/Latest La Mia Cucina/La_Mia_Cucina/app/src/main/res/layout/activity_signup.xml" value="0.209375" />
         <entry key="..\:/Clients_Projects/Latest La Mia Cucina/La_Mia_Cucina/app/src/main/res/layout/activity_start.xml" value="0.209375" />
+        <entry key="..\:/Clients_Projects/Latest La Mia Cucina/La_Mia_Cucina/app/src/main/res/layout/activity_view_ingredient_kitchen_log.xml" value="0.209375" />
         <entry key="..\:/Clients_Projects/Latest La Mia Cucina/La_Mia_Cucina/app/src/main/res/layout/fragment_home.xml" value="0.209375" />
         <entry key="..\:/Clients_Projects/Latest La Mia Cucina/La_Mia_Cucina/app/src/main/res/layout/fragment_home_pantry_manager.xml" value="0.209375" />
         <entry key="..\:/Clients_Projects/Latest La Mia Cucina/La_Mia_Cucina/app/src/main/res/layout/fragment_meal_planner.xml" value="0.209375" />
