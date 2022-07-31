@@ -48,20 +48,16 @@ public class PlannedMealDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_planned_meal_detail);
 
+        startCookingTextView = findViewById(R.id.startCookingTextView);
         boolean Role = new BaseUtil(this).getLoginRole().equals("Chef");
         if (Role) // Chef
         {
             //Show Start Cooking
             startCookingTextView.setVisibility(View.VISIBLE);
-            startCookingTextView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    new AlertDialog.Builder(PlannedMealDetailActivity.this).setTitle("Start Cooking").setMessage("Are you sure ?")
-                            .setPositiveButton("OK", (dialogInterface, i) -> CalculateIngredients())
-                            .setNegativeButton("No", (dialogInterface, i) -> dialogInterface.dismiss())
-                            .show();
-                }
-            });
+            startCookingTextView.setOnClickListener(view -> new AlertDialog.Builder(PlannedMealDetailActivity.this).setTitle("Start Cooking").setMessage("Are you sure ?")
+                    .setPositiveButton("OK", (dialogInterface, i) -> CalculateIngredients())
+                    .setNegativeButton("No", (dialogInterface, i) -> dialogInterface.dismiss())
+                    .show());
         }
         else
         {
